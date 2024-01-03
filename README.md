@@ -1,4 +1,4 @@
-![Comviva Image](./Comviva.png)
+![Comviva Image](<img src="./Comviva.png" width="300" height="200">) 
 
 **Internship at : [Comviva](https://www.comviva.com)**
 
