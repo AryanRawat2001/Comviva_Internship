@@ -1,4 +1,4 @@
-![Comviva Image](./Comviva.png) 
+![Comviva Image](./assets/Comviva.png) 
 
 **Internship at : [Comviva](https://www.comviva.com)**
 
