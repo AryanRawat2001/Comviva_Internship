@@ -1,62 +1,31 @@
 ![Comviva Image](./Comviva.png)
 
-**Organisation: [Comviva](https://www.comviva.com)**
+**Internship at : [Comviva](https://www.comviva.com)**
 
 **TOPIC: [Microsoft AZURE and its GEN AI usecases](https://portal.azure.com/#home)**
 
-**Mentors: [Marcus Edel](https://github.com/zoq) and [Kartik dutt](https://github.com/kartikdutt18)**
+**Mentor: [Mukund Shastri](https://www.linkedin.com/in/mukundshastri/)**
 
 ## Abstract
 
-I was selected for google summer of code 2021 to work with mlpack on the project `Ready to use models in mlpack`, mlpack is an intuitive, fast, and flexible C++ machine learning library with bindings to other languages. In recent years computer vision has taken many turns and at this point, it is at a mature stage that when you need to use say a classification model you don't need to construct the complete architecture on your own, you can just write a single line of code and it creates the complete pretrained model for you which is what I did and added ResNet module and MobileNetV1 with pretrained weights on imagenet. 
+During my 4month internship with Comviva (4th September 2023 to 3rd Jan 2024) , I focused on learning and working with Azure's Generative AI services. This involved gaining a deep understanding of Azure's AI capabilities and exploring how to leverage its Generative AI services for various usecases. Throughout the internship, I focused on getting deep into Azure's Generative AI, honing my skills in utilizing these services to create innovative and impactful solutions. This experience provided valuable insights into the potential of Generative AI and its practical applications within the context of Azure. This abstract provides a glimpse into the comprehensive exploration and learning journey undertaken during the internship.
 
 ## Goal
 
-The goal of this proposal was to implement `MobileNetV1` which will also include implementing `depthwise separable convolutions` and a `ResNet` model builder that can be used to create `resnet18`, `resnet34`, `resnet50`, `resnet101`, and `resnet152`. This project would fall under the idea: `Ready to use models in mlpack`, the resnet builder and MobileNetV1 will fall under the [models](https://github.com/mlpack/models) repository and depthwise separable convolutions will fall under the mlpack repository as a layer inside the artificial neural network codebase.
-
+The primary goal of the internship with Comviva was to gain proficiency in utilizing Azure's Generative AI services. This involved acquiring in-depth knowledge of the capabilities offered by Azure's Generative AI and understanding how these services can be effectively applied to real-world scenarios. The aim was to develop a strong foundation in leveraging Generative AI within the Azure ecosystem, with a focus on exploring its potential for driving innovation and solving complex challenges. The goal was to emerge from the internship with a comprehensive understanding of Azure's Generative AI services and their practical implications.
 
 ## Results
 
-Both the model builders that I proposed with pretrained weights with a lot of configuration are now available in the mlpack codebase. On the way, we faced and discovered small issues or implementation bugs which we corrected but we still face some issues with the tests of depthwise separable convolutions and so that PR is still not merged and before that, I would like to thank Kartik because yes the format I choose for writing this is originally his and yes this is 100% inspired by his with little tweaks of mine. 
+During the internship, I emphasized on doing a lot of Research on Generative AI services which Azure offers . Enhancements were made to the experience of offer delivery to end customers. This was achieved through the development of a text-to-audio model, with the objective of increasing the rate of offer acceptance. Additionally, a Spanish audio-to-text translation service was created, incorporating sentiment analysis to facilitate a deeper understanding of client calls.
 
-## g++ Contributions.cpp -o Contributions
 
-I have divided my contributions according to the repositories and PR having this ☀️ symbol in front of them was the core part of my projects others were mostly the ones that I picked up on the way but weren't mentioned in my project.
+## Conclusion
 
-PS: The sun emoji because that resembles the GSoC logo. :p
-
-### [mlpack/models](https://github.com/mlpack/models)
-
-- [Addition of resnet module](https://github.com/mlpack/models/pull/63) - merged ☀️ 
-- [Addition of MobileNet V1](https://github.com/mlpack/models/pull/72) - merged ☀️
-- [Deprecation of ubuntu 16.04 in pipeline](https://github.com/mlpack/models/pull/67) - merged
-- [Use catch2 instead of ctest](https://github.com/mlpack/models/pull/70) - merged
-- [Ctest Fix](https://github.com/mlpack/models/pull/73) - merged
-- [Documentation for models repo](https://github.com/mlpack/models/pull/65) - open
-
-### [mlpack/mlpack](https://github.com/mlpack/mlpack)
-
-- [Addition of DepthWise layer](https://github.com/mlpack/mlpack/pull/3007) - open ☀️
-- [Documentation revamp](https://github.com/mlpack/mlpack/pull/2990) - open
-- [Addition of ReLU6](https://github.com/mlpack/mlpack/pull/3009) - merged ☀️
-- [Move Sequential layers to LayerTypes](https://github.com/mlpack/mlpack/pull/3004) - merged ☀️
-- [Corrects wrong serialization for BatchNorm and Virtual BN](https://github.com/mlpack/mlpack/pull/2999) - merged ☀️
-- [Padding layer fix for multiple filters](https://github.com/mlpack/mlpack/pull/2985) - merged ☀️
-
-### [mlpack PyTorch Weight Translator](https://github.com/Aakash-kaushik/mlpack-PyTorch-Weight-Translator)
-
-This repository was used to port weights for all the ResNet and MobileNetV1 from Pytorch and thus contains two branches, one for resnet and the other one for MobileNetV1.
-
-- [Resnet](https://github.com/Aakash-kaushik/mlpack-PyTorch-Weight-Translator/tree/resnet) ☀️
-- [MobileNet V1](https://github.com/Aakash-kaushik/mlpack-PyTorch-Weight-Translator/tree/mobilenetv1) ☀️
-
-## Final Thoughts
-
-I loved the time I spent with mlpack and would like to thanks my mentors Marcus and Kartik for guiding me with the best practices and helping me out whenever I was stuck. I would keep contributing to the project and the community as a whole with the things I have learned and would continue to learn.
+The internship presented an invaluable opportunity to contribute to the optimization of offer delivery to end customers. The development of a text-to-audio model aimed at increasing offer acceptance rates, coupled with the creation of a Spanish audio-to-text translation service with sentiment analysis, marked significant strides in enhancing customer interactions. These initiatives not only showcased the potential for technological innovation to drive customer engagement but also underscored the importance of leveraging advanced AI capabilities to gain deeper insights into client communications. The outcomes of these efforts not only demonstrated the potential for improved operational efficiency but also laid the groundwork for continued exploration and application of Generative AI services through Azure . 
 
 ## Ways to reach me
 
 <p align="center">
-  <a href="mailto:kaushikaakash7539@gmail.com?subject = Hello from your GitHub README&body = Message"><img src="./assets/gmail.svg" height="80px" width="80px" alt="Gmail" ></a>
-  <a href="https://www.linkedin.com/in/kaushikaakash7539/"><img src="./assets/linkedIn.svg" height="80px" width="80px" alt="LinkedIn"></a>
+  <a href="mailto:aryanrawat2001@gmail.com?subject = Hello from your GitHub README&body = Message"><img src="./assets/gmail.svg" height="80px" width="80px" alt="Gmail" ></a>
+  <a href="https://www.linkedin.com/in/aryan-rawat-58551618b/"><img src="./assets/linkedIn.svg" height="80px" width="80px" alt="LinkedIn"></a>
 </p>
