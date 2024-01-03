@@ -1,4 +1,4 @@
-![Comviva Image](./assets/gsoc-mlpack.png)
+![Comviva Image](./Comviva.png)
 
 **Organisation: [mlpack](https://github.com/mlpack)**
 
