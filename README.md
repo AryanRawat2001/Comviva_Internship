@@ -1,8 +1,8 @@
 ![Comviva Image](./Comviva.png)
 
-**Organisation: [mlpack](https://github.com/mlpack)**
+**Organisation: [Comviva](https://www.comviva.com)**
 
-**Project: [Addition of ResNet Module and MobileNet V1](https://summerofcode.withgoogle.com/projects/#6085617844224000)**
+**TOPIC: [Microsoft AZURE and its GEN AI usecases](https://portal.azure.com/#home)**
 
 **Mentors: [Marcus Edel](https://github.com/zoq) and [Kartik dutt](https://github.com/kartikdutt18)**
 
